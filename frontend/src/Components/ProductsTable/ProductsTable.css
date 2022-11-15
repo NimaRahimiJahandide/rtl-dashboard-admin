@@ -1,0 +1,70 @@
+.products-table{
+    margin-top: 30px;
+    width: 100%;
+    background-color:var(--white);
+    border-radius: 1rem;
+}
+
+.products-table-heading-tr{
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    padding: 0 70px 0 460px;
+}
+
+.product-heading-th{
+    padding: 20px;
+}
+
+.products-table-tr{
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    padding: 0 10px 0 30px;
+}
+
+.product-table-td{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.products-table-img{
+    width: 150px;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.products-table-btn{
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 8px 20px;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    margin-right: 20px;
+}
+
+
+/* Start Edit Modal Children Style */
+.edit-products-form-group {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+    background-color: #f4f4f4;
+    border-radius: 1rem;
+    padding: 0 20px;
+}
+
+.edit-product-input{
+    outline: none;
+    border: none;
+    background-color: unset;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 8px 10px;
+}
+
+/* Finish Edit Modal Children Style */
+
